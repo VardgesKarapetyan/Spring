@@ -10,6 +10,7 @@ import javax.persistence.Id;
 @Entity
 @Data
 public class Card {
+    /*asfvbisdhmfvjovhdabvhisdajkbvihkvw*/
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  int id;
