@@ -12,5 +12,7 @@ public class SecureLogout extends HttpServlet {
        // cookie.setPath("/");
         response.addCookie(cookie);
         response.sendRedirect("/secure/index.jsp");
+        System.out.println();
     }
+
 }
